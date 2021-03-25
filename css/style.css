@@ -1,0 +1,1586 @@
+/*==================================
+        comon css start    
+====================================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+
+/*==================================
+        comon css end    
+====================================*/
+
+
+/*================================
+        title-part start
+=================================*/
+
+
+.title {
+    text-align: center;
+
+}
+
+.title h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-emphasis-color: #000;
+    text-transform: capitalize;
+}
+
+.title p {
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 600px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-emphasis-color: #000;
+    text-transform: capitalize;
+}
+
+/*================================
+        title-part end
+=================================*/
+
+
+/*==================================
+        header css start    
+====================================*/
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+header span {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+}
+
+header a {
+    display: inline-block;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header i {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+header .mail {
+    padding-left: 25px;
+}
+
+header p {
+    text-align: right;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header p a {
+    transition: .4s;
+}
+
+header p a:hover {
+    color: #fbaa33;
+}
+.d-sm-block{
+    display: block;
+}
+/*==================================
+        header css end    
+====================================*/
+
+
+/*==================================
+        nav-part css start    
+====================================*/
+nav {
+    margin: 15px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #000;
+    transition: .4s !important;
+}
+
+nav ul li a:hover {
+    color: #fbaa33;
+}
+
+nav .button a {
+    display: inline-block;
+    color: #000;
+    padding: 12px 18px;
+    background: #fff;
+    border: 1px solid #fbaa33;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+nav .button a:hover {
+    color: #fff;
+    background: #fbaa33;
+}
+
+
+/*==================================
+        nav-part css end    
+====================================*/
+
+
+/*==================================
+        banner-part css start    
+====================================*/
+#banner-part .banner {
+    background: url(../images/banner.png)no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner2 {
+    background: url(../images/Banner-02.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner3 {
+    background: url(../images/banner_03.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 62, 80, 0.5);
+}
+
+#banner-part .banner .overlay h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 135px;
+}
+
+#banner-part .banner .overlay h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #fff;
+    padding-top: 10px;
+    ]
+}
+
+#banner-part .banner .overlay p {
+    width: 540px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#banner-part .banner .overlay .btn {
+    padding-bottom: 230px;
+}
+
+#banner-part .banner .overlay a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    background: #2d3e50;
+    border-radius: 5px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    transition: .4s;
+    margin-right: 20px;
+}
+
+#banner-part .banner .overlay a:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+#banner-part .next {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    color: #fff;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+
+#banner-part .next:hover {
+    background: #fbaa33;
+    border: 1px solid #fbaa33;
+    color: #fff;
+}
+
+
+#banner-part .prev {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: #fff;
+    transition: .4s;
+}
+
+#banner-part .prev:hover {
+    background: #fbaa33;
+    border: 1px solid #fbaa33;
+    color: #fff;
+}
+
+
+
+/*==================================
+        banner-part css end    
+====================================*/
+
+
+
+/*==================================
+        support-part css start    
+====================================*/
+#support-part .item {
+    background: #fff;
+    border: 1px solid #dddddd;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 30px 0;
+    transition: all ease .4s;
+
+}
+
+#support-part .item:hover {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+#support-part .item h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+#support-part .item span {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7e7e7e;
+    text-transform: capitalize;
+}
+
+#support-part .item span i {
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+/*==================================
+        support-part css end    
+====================================*/
+
+/*==================================
+        about-part css start    
+====================================*/
+#about-part {
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+#about-part .slick-slider {
+    margin-left: -12%;
+    margin-right: -12%;
+    width: 110%;
+}
+
+#about-part .rev_slide img {
+    width: 120%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+#about-part .slick-slider {
+    margin-left: -12%;
+    margin-right: -12%;
+}
+
+#about-part .slick-list {
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+    padding-left: 15% !important;
+    padding-right: 20% !important;
+}
+
+#about-part .slick-track {
+    max-width: 100% !important;
+    transform: translate3d(0, 0, 0) !important;
+    perspective: 100px;
+}
+
+#about-part .slick-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    width: 100% !important;
+    transform: translate3d(0, 0, 0);
+    transition: transform 1s, opacity 1s;
+}
+
+#about-part .slick-snext,
+#about-part .slick-sprev,
+#about-part .slick-snext2,
+#about-part .slick-sprev2 {
+    display: block;
+}
+
+#about-part .slick-current {
+    opacity: 1;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+#about-part .slick-snext {
+    opacity: 1;
+    transform: translate3d(10%, 0, -10px);
+    z-index: 1;
+    perspective: 1000px;
+}
+
+#about-part .slick-snext2 {
+    opacity: 1;
+    transform: translate3d(20%, 0, -20px);
+    z-index: 0;
+    perspective: 1000px;
+}
+
+#about-part .slick-sprev {
+    opacity: 1;
+    transform: translate3d(-10%, 0, -10px);
+}
+
+#about-part .slick-sprev2 {
+    opacity: 1;
+    transform: translate3d(-20%, 0, -20px);
+}
+
+#about-part .test {
+    display: block;
+    width: 100%;
+    height: 300px;
+    background: #c00;
+    box-shadow: inset 0px 0px 0px 3px #000
+}
+
+
+#about-part .slick-dots {
+    text-align: right;
+    position: absolute;
+    bottom: 55px;
+    left: 46%;
+    transform: translate(-50%)
+}
+
+#about-part .slick-dots li {
+    margin-right: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #2d3e50;
+
+
+}
+
+#about-part .slick-dots .slick-active {
+    background: #fbaa33;
+    border: 1px solid #fbaa33;
+}
+
+#about-part .img-shape {
+    position: relative;
+}
+
+#about-part .img-shape:after {
+    content: "";
+    width: 360px;
+    height: 2px;
+    background: #fbaa33;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+
+#about-part .img-shape:before {
+    content: "";
+    width: 7px;
+    height: 2px;
+    background: #fbaa33;
+    position: absolute;
+    top: 45px;
+    left: 365px;
+}
+
+#about-part .slick-slider {
+    position: relative;
+}
+
+#about-part .slick-slider:after {
+    content: "";
+    width: 360px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+
+#about-part .slick-slider:before {
+    content: "";
+    width: 7px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    bottom: 50px;
+    right: 365px;
+}
+
+#about-part .text-part {
+    margin-top: 40px;
+}
+
+#about-part .text-part p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+#about-part .text-part .btn {
+    margin-top: 25px;
+}
+
+#about-part .text-part .btn a {
+    display: inline-block;
+    padding: 15px 20px;
+    background: #2d3e50;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+#about-part .text-part .btn a:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+/*==================================
+        about-part css end    
+====================================*/
+
+
+
+/*==================================
+        other-part css start    
+====================================*/
+#other-part {
+    background: url(../images/counterPartImage.png)no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#other-part .item {
+    position: relative;
+}
+
+#other-part .item:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 40px;
+    height: 2px;
+    background: #fbaa33;
+}
+
+#other-part .item:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 56%;
+    width: 7px;
+    height: 2px;
+    background: #fbaa33;
+}
+
+#other-part .item h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#other-part .item p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/*==================================
+        other-part css end    
+====================================*/
+
+/*==================================
+        course-part css start    
+====================================*/
+#course-part{
+    margin-top: 40px;
+}
+
+
+#course-part .course-slider .item {
+    background: #f5f5f5;
+    margin: 0 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    transition: all ease .4s;
+}
+
+#course-part .course-slider .slick-center {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#course-part .course-slider .item .img {
+    width: 100%;
+    position: relative;
+}
+
+#course-part .course-slider .item .img .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all ease .4s;
+}
+
+#course-part .course-slider .slick-center .img .overlay {
+    opacity: 1;
+}
+
+#course-part .course-slider .item .img .overlay i {
+    width: 50px;
+    height: 50px;
+    background: #fbaa33;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+#course-part .course-slider .item .img img {
+    width: 100%;
+}
+
+
+#course-part .course-slider .item .intro {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+#course-part .course-slider .item .intro .name1 .conduct {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444444;
+}
+
+#course-part .course-slider .item .intro .name1 .johan {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+#course-part .course-slider .item .intro .name1 {
+	margin-left: -48px;
+	margin-top: 8px;
+}
+
+#course-part .course-slider .item .intro .ratings i{
+    color: #fbaa33;
+    font-size: 10px;
+}
+
+#course-part .course-slider .item .intro .ratings p {
+    color: #999999;/*
+    margin-left: 28px;*/
+}
+
+#course-part .course-slider .item .details h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    padding: 20px 0;
+    transition: all ease .4s;
+}
+
+#course-part .course-slider .slick-center .details h3 {
+    color: #fbaa33;
+}
+
+
+#course-part .course-slider .item .details p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#course-part .course-slider .item .duration {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#course-part .course-slider .item .duration p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+}
+
+#course-part .course-slider .item .duration h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+}
+
+#course-part .course-slider .item .button {
+    text-align: center;
+    transform: translateY(75%)
+}
+
+#course-part .course-slider .item .button a {
+    display: inline-block;
+    padding: 18px 20px;
+    background: #2d3e50;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all ease .4s;
+}
+
+#course-part .course-slider .slick-center .button a {
+    background: #fbaa33;
+}
+
+#course-part .prev {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #2d3e50;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #2d3e50;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(50%);
+    z-index: 1;
+    transition: all ease .4s;
+}
+
+#course-part .prev:hover {
+    color: #fff;
+    background: #fbaa33;
+    border: 1px solid #fbaa33
+}
+
+#course-part .next {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #2d3e50;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #2d3e50;
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translateY(50%);
+    z-index: 1;
+    transition: all ease .4s;
+}
+
+#course-part .next:hover {
+    color: #fff;
+    background: #fbaa33;
+    border: 1px solid #fbaa33
+}
+
+/*==================================
+        course-part css end    
+====================================*/
+
+/*==================================
+        event-part css start    
+====================================*/
+#event-part {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#event-part .item {
+    display: flex;
+    padding: 20px;
+    background: #f5f5f5;
+    transition: all ease .4s;
+    margin-top: 40px;
+}
+
+#event-part .item .img {
+    position: relative;
+    transition: all ease .4s;
+}
+
+#event-part .item .img p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 5px;
+    background: #ff3232;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all ease .4s;
+}
+
+#event-part .item:hover .img p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: all ease .4s;
+    background: rgba(255, 50, 50, 0.7);
+    transform: rotate(360deg);
+}
+
+
+#event-part .item .details {
+    padding-left: 20px;
+}
+
+#event-part .item .details h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2d3e50;
+    transition: all cubic-bezier(.25, .1, .46, .57) .4s;
+}
+
+#event-part .item:hover .details h4 {
+    color: #fbaa33;
+}
+
+#event-part .item .details p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2d3e50;
+    padding-top: 20px;
+    width: 266px;
+}
+
+#event-part .item .details .time {
+    display: flex;
+    width: 100%;
+}
+
+#event-part .item .details .time p {
+    font-size: 14px;
+    color: #7e7e7e;
+
+}
+
+#event-part .item .details .time i {
+    margin-right: 10px;
+    color: #2d3e50;
+    transition: all cubic-bezier(.53, .62, .25, 1) .4s;
+}
+
+#event-part .item:hover .details .time i {
+    color: #fbaa33;
+}
+
+#event-part .item .details .time .am {
+    margin-left: -128px;
+}
+
+#event-part .item .details .button {
+    margin-top: 24px;
+}
+
+#event-part .item .details .button a {
+    display: inline-block;
+    padding: 15px 22px;
+    background: #2d3e50;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all cubic-bezier(.55, .58, .25, 1) .4s;
+}
+
+#event-part .item:hover .details .button a {
+    background: #fbaa33;
+    color: #fff;
+}
+
+/*==================================
+        event-part css end    
+====================================*/
+
+
+/*==================================
+        testimonial-part css start    
+====================================*/
+
+#testimonial-part {
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+
+#testimonial-part .item {
+    display: flex;
+    margin-top: 55px;
+}
+
+#testimonial-part .testi-slider {
+    position: relative;
+}
+
+#testimonial-part .testi-slider:after {
+    content: "";
+    width: 200px;
+    height: 2px;
+    background: #fbaa33;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#testimonial-part .testi-slider:before {
+    content: "";
+    width: 6px;
+    height: 2px;
+    background: #fbaa33;
+    position: absolute;
+    top: 50px;
+    left: 208px;
+    ;
+}
+
+#testimonial-part .test-shape {
+    position: relative
+}
+
+#testimonial-part .test-shape:after {
+    position: absolute;
+    bottom: -7px;
+    right: 55%;
+    width: 200px;
+    height: 2px;
+    background: #2d3e50;
+    content: "";
+}
+
+#testimonial-part .test-shape:before {
+    position: absolute;
+    bottom: -7px;
+    right: 79%;
+    width: 6px;
+    height: 2px;
+    background: #2d3e50;
+    content: "";
+}
+
+#testimonial-part .item .img {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#testimonial-part .item .details p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    margin-top: 52px;
+}
+
+#testimonial-part .item .details h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2d3e50;
+    text-transform: capitalize;
+    margin-top: 35px;
+}
+
+#testimonial-part .item .details span {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2d3e50;
+}
+
+#testimonial-part .item .details .ratings {
+    margin-top: 14px;
+    color: #fbaa33;
+}
+
+#testimonial-part .prev {
+    width: 50px;
+    height: 50px;
+    background: #2d3e50;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: -70px;
+    transform: translate(-50%);
+    z-index: 1;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: all ease .4s;
+
+}
+
+#testimonial-part .prev:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+#testimonial-part .next {
+    width: 50px;
+    height: 50px;
+    background: #2d3e50;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 63%;
+    left: -70px;
+    transform: translate(-50%);
+    z-index: 1;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: all ease .4s;
+}
+
+#testimonial-part .next:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+#testimonial-part .acordian-part {
+    margin-top: 55px;
+}
+
+#testimonial-part .accordion-button:focus {
+    box-shadow: 0 0 0 .0rem rgb(10, 195, 203);
+}
+
+#testimonial-part .accordion-button::after {
+    background-image: none;
+
+}
+
+#testimonial-part .accordion-button .collapsed {
+    position: relative;
+    background: #fbaa33;
+
+}
+
+
+#testimonial-part .accordion-button i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) rotate(0);
+    transition: .4s;
+}
+
+#testimonial-part .accordion-button:not(.collapsed) i {
+    transform: translateY(-50%) rotate(180deg);
+
+}
+
+#testimonial-part .accordion-header {
+    background: #fbaa33;
+}
+
+/*==================================
+        testimonial-part css end    
+====================================*/
+
+/*==================================
+        teacher-part css start    
+====================================*/
+#teacher-part {
+    margin-top: 80px;
+}
+
+#teacher-part .item {
+    margin-top: 60px;
+    position: relative;
+}
+
+#teacher-part .item .img {
+    width: 100%;
+}
+
+#teacher-part .item .icon {
+    position: absolute;
+    bottom: -43px;
+    left: 28%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all ease .4s;
+
+}
+
+#teacher-part .item:hover .icon {
+    opacity: 1;
+}
+
+#teacher-part .item .icon i {
+    width: 40px;
+    height: 40px;
+    background: #2d3e50;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    transition: all ease .4s;
+}
+
+#teacher-part .item .icon i:hover {
+    color: #fff;
+    background: #fbaa33;
+}
+
+#teacher-part .item .details {
+    text-align: center;
+    position: absolute;
+    bottom: -65px;
+    left: 72px;
+    transition: .4s;
+}
+
+#teacher-part .item:hover .details {
+    bottom: -80px;
+}
+
+#teacher-part .item .details h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2d3e50;
+}
+
+#teacher-part .item .details p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2d3e50;
+    padding-top: 6px;
+}
+
+
+/*==================================
+        teacher-part css end    
+====================================*/
+
+
+/*==================================
+        ourblog-part css start    
+====================================*/
+
+#blog-part .title-blog {
+    padding-top: 30px;
+    color: #fff;
+}
+
+#blog-part {
+    margin-top: 200px;
+    background: url(../images/blogsection-title.png)no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+#blog-part .item {
+    position: relative;
+    margin-top: 30px;
+}
+
+#blog-part .item img {
+    width: 100%;
+}
+
+#blog-part .item .box-shadow {
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.89) 6%, rgba(0, 0, 0, 0.89) 13%, rgba(0, 0, 0, 0.69) 21%, rgba(125, 185, 232, 0.15) 43%, rgba(125, 185, 232, 0) 49%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#blog-part .item .social-icon {
+    margin-left: 85%;
+    margin-top: 40px;
+    opacity: 0;
+    transition: all ease .4s;
+}
+
+#blog-part .item:hover .social-icon {
+    opacity: 1;
+}
+
+#blog-part .item .social-icon i {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #2d3e50;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin: 10px 0;
+    transition: all ease .4s;
+}
+
+#blog-part .item .social-icon i:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+#blog-part .item .details {
+    margin-top: 8%;
+    margin-left: 40px;
+}
+
+#blog-part .item .details h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+#blog-part .item .details a {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+#blog-part .item .details p {
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 40px;
+
+}
+
+#blog-part .item .view {
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 15px;
+    opacity: 0;
+    transition: all ease .4s;
+}
+
+#blog-part .item:hover .view {
+    opacity: 1;
+}
+
+#blog-part .item .view p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#blog-part .item .view i {
+    padding-right: 6px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/*==================================
+        ourblog-part css end    
+====================================*/
+
+/*==================================
+        ourblog-bottom css start    
+====================================*/
+#blog-bottom {
+    margin-top: 20%;
+}
+
+#blog-bottom .card img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#blog-bottom .img-shadow {
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.89) 6%, rgba(0, 0, 0, 0.89) 13%, rgba(0, 0, 0, 0.69) 21%, rgba(125, 185, 232, 0.15) 43%, rgba(125, 185, 232, 0) 49%);
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#blog-bottom .card ul {
+    margin-left: 70%;
+    margin-top: 30px;
+    opacity: 0;
+    transition: all ease .4s;
+}
+
+#blog-bottom .card:hover ul {
+    opacity: 1;
+}
+
+#blog-bottom .card ul li i {
+    width: 30px;
+    height: 30px;
+    background: #2d3e50;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 5px 0;
+    font-size: 14px;
+    transition: all ease .4s;
+}
+
+#blog-bottom .card ul li i:hover {
+    color: #fff;
+    background: #fbaa33;
+}
+
+#blog-bottom .card .details {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#blog-bottom .card .details h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+#blog-bottom .card .details a {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+/*==================================
+        ourblog-bottom css end    
+====================================*/
+
+/*==================================
+        footer-part css start    
+====================================*/
+#footer-part {
+    margin-top: 60px;
+    background: url(../images/blogsection-title.png)no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+#footer-part .f-item p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#footer-part .f-item ul {
+    margin-left: -35px;
+    margin-top: 40px;
+}
+
+#footer-part .f-item .icon li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#footer-part .f-item .icon li i {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #2d3e50;
+    font-size: 20px;
+    transition: all ease .4s;
+}
+
+#footer-part .f-item .icon li i:hover {
+    background: #fbaa33;
+    color: #fff;
+}
+
+#footer-part .f-item .history {
+    color: #fff;
+}
+
+#footer-part .f-item h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+#footer-part .f-item .history li {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+    transition: all ease .4s;
+}
+
+#footer-part .f-item .history li:hover {
+    color: #fbaa33;
+}
+
+#footer-part .f-item .contact {
+    text-transform: capitalize;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+#footer-part .f-item .information li i {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #2d3e50;
+    margin-top: 40px;
+    transition: all ease .4s;
+}
+
+#footer-part .f-item .information li i:hover {
+    color: #fff;
+    background: #fbaa33;
+}
+#footer-part .f-item .information {
+    margin-top: 0;
+}
+#footer-part .f-item .address {
+    margin-top: -10px;
+}
+
+#footer-part .f-item .address .address-title {
+    color: #fbaa33;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#footer-part .f-item .address h5 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+/*==================================
+        footer-part css end    
+====================================*/
+
+/*==================================
+        footer-img-part css start    
+====================================*/
+#footer-img .img{
+   width: 100%;
+    position: relative;
+}
+#footer-img .img img{
+    width: 100%;
+}
+#footer-img .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.7);
+    opacity: 0;
+    transition: all ease .4s;
+}
+#footer-img .img:hover .overlay{
+    opacity: 1;
+}
+#footer-img .img .overlay a{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2d3e50;
+}
+
+/*==================================
+        footer-img-part css end    
+====================================*/
+
+/*==================================
+        footer-bottom css stat    
+====================================*/
+#footer-bottom{
+    background: #2d3e50;
+    padding: 10px 0;
+}
+#footer-bottom .item p{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+#footer-bottom .item span{
+    color: #fbaa33;
+}
+/*==================================
+        footer-bottom css end    
+====================================*/
+
+
+
+
+
+
+
+
